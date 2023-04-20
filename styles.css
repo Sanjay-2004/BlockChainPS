@@ -1,0 +1,27 @@
+.btn.btn-light.btn-lg.dropdown-toggle{
+    border-radius: 100%;
+}
+.bugs-queries{
+    background-color: bisque;
+}
+.dropdown-toggle,.dropdown-menu{
+    width: 100%;
+
+}
+.dropdown-menu{
+    max-height: 400px;
+    overflow-y: scroll;
+}
+
+@media (max-width: 992px){
+    .btn.btn-light.btn-lg.dropdown-toggle{
+        display: none;
+
+    }
+    .dropdown-menu{
+        display: block;
+    }
+    .collapse .navbar-collapse .justify-content-end{
+        justify-content: end;
+    }
+}
